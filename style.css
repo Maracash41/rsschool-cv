@@ -1,0 +1,89 @@
+/* Start reset styles */
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* End reset styles */
+
+/* Start default styles */
+
+:root {
+    --primary-color: #1791db;
+    --background-color: #252a41;
+    --third-color: #0089bd;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* End default styles */
+
+/* Start header */
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: #1791db;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav__link {
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+.nav__link:hover,
+.nav__link:active,
+.nav__link:focus {
+    background-color: #3fa2df;
+}
+
+
+
+/* End header */
