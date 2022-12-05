@@ -4,7 +4,7 @@ html {
     box-sizing: border-box;
 }
 
-*, 
+*,
 *::before,
 *::after {
     box-sizing: inherit;
@@ -58,7 +58,7 @@ img {
     padding-bottom: 10px;
     font-size: 2rem;
     color: #000000;
-    
+
 }
 
 .section-title::before {
@@ -113,7 +113,7 @@ img {
     border-radius: 15px;
     transition: width 0.1s linear;
     transform: translateX(-50%);
-    
+
 }
 
 .nav__link:hover,
@@ -167,7 +167,7 @@ img {
 
 .information {
     color: #000;
-    
+
 }
 
 .information__item {
