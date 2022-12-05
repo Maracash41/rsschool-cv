@@ -141,7 +141,6 @@ img {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 25px;
-    padding-left: 0 20px;
 }
 
 /* Start left-side section */
