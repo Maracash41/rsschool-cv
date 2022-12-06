@@ -424,10 +424,10 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #000;
-    transition: all 0.1s ease;
     padding: 5px;
+    color: #000;
     border-radius: 5px;
+    transition: all 0.1s ease;
     filter: grayscale(100%);
 }
 
@@ -485,7 +485,6 @@ img {
 .projects__stack--js {
     background-image: url(../rsschool-cv/assets/img/svg/icon-js.svg);
 }
-
 
 /* End Projects section*/
 
