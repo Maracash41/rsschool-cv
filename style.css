@@ -4,7 +4,7 @@ html {
     box-sizing: border-box;
 }
 
-*, 
+*,
 *::before,
 *::after {
     box-sizing: inherit;
@@ -58,7 +58,7 @@ img {
     padding-bottom: 10px;
     font-size: 2rem;
     color: #000000;
-    
+
 }
 
 .section-title::before {
@@ -113,7 +113,7 @@ img {
     border-radius: 15px;
     transition: width 0.1s linear;
     transform: translateX(-50%);
-    
+
 }
 
 .nav__link:hover,
@@ -141,7 +141,6 @@ img {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 25px;
-    padding-left: 0 20px;
 }
 
 /* Start left-side section */
@@ -168,7 +167,7 @@ img {
 
 .information {
     color: #000;
-    
+
 }
 
 .information__item {
@@ -425,10 +424,10 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #000;
-    transition: all 0.1s ease;
     padding: 5px;
+    color: #000;
     border-radius: 5px;
+    transition: all 0.1s ease;
     filter: grayscale(100%);
 }
 
@@ -486,7 +485,6 @@ img {
 .projects__stack--js {
     background-image: url(../rsschool-cv/assets/img/svg/icon-js.svg);
 }
-
 
 /* End Projects section*/
 
