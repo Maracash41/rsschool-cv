@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon_sm.ico" type="image/x-icon" >
     <title>CV Andrey Akimov Front-End Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,23 +55,23 @@
                 <div class="left-side">
                     <section class="contacts">
                         <div class="contacts__avatar avatar">
-                            <img src="./my-foto.jpg" alt="Photo Andrey Akimov" class="avatar__photo">
+                            <img src="/assets/img/my-foto.jpg" alt="Photo Andrey Akimov" class="avatar__photo">
                         </div>
                         <h2 class="contacts__title section-title">Contacts</h2>
-                        <div class="contacts__information information">
-                            <div class="information__item">
-                                <div class="information__title">E-mail:</div>
-                                <a href="mailto:9531945@gmail.com" class="information__link">9531945@gmail.com</a>
-                            </div>
-                            <div class="information__item">
-                                <div class="information__title">Telegram:</div>
-                                <p class="information__desc">@mchash41</p>
-                            </div>
-                            <div class="information__item">
-                                <div class="information__title">Phone:</div>
-                                <a href="tel:+79219531945" class="information__link">+79219531945</a>
-                            </div>
-                        </div>
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <div class="contacts__item-title">E-mail:</div>
+                                <a href="mailto:9531945@gmail.com" class="contacts__link">9531945@gmail.com</a>
+                            </li>
+                            <li class="contacts__item">
+                                <div class="contacts__item-title">Telegram:</div>
+                                <p class="contacts__desc">@mchash41</p>
+                            </li>
+                            <li class="contacts__item">
+                                <div class="contacts__item-title">Phone:</div>
+                                <a href="tel:+79219060541" class="contacts__link">+7-921-906-0541</a>
+                            </li>
+                        </ul>
                     </section>
                     <section class="skills" id="skills">
                         <h2 class="skills__title section-title">Skills</h2>
@@ -87,7 +88,30 @@
                                 <div class="skill__title">JS</div>
                                 <div class="skill__progress"><span class="skill__scale" id="skill__scale-js"></span></div>
                             </div>
+                            <ul class="skill__list">
+                                <li class="skill__list-item">Adobe Photoshop, Figma, Corel Draw</li>
+                                <li class="skill__list-item">HTML5, CSS3, SCSS, BEM</li>
+                                <li class="skill__list-item">JavaScript(ES5-6)</li>
+                                <li class="skill__list-item">Knowledge about System Administration</li>
+                                <li class="skill__list-item">English - Intermediate</li>
+                                <li class="skill__list-item">Heigh learning ability</li>
+                                <li class="skill__list-item">Ability to listen</li>
+                                <li class="skill__list-item">Self-discipline</li>
+                                <li class="skill__list-item">Goal-oriented</li>
+                                <li class="skill__list-item">Sociable</li>
+                            </ul>
                         </div>
+                    </section>
+                    <section class="english" id="english">
+                        <h2 class="english__title section-title">English</h2>
+                        <ul class="english__list">
+                            <li class="english__item">
+                                <a href="https://www.efset.org/quick-check/take-test/#set15-190/result" class="english__link" target="_blank">
+                                    <img src="/assets/img/english-test-logo.png" alt="English tesm my result" class="english__img">
+                                    <p class="english__desc"></p>
+                                </a>
+                            </li>
+                        </ul>
                     </section>
                 </div>
                 <!-- Start right-side section -->
@@ -99,7 +123,7 @@
                     <section class="about">
                         <h2 class="about__title section-title">About me</h2>
                         <p class="about__desc">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consequatur eaque quia natus laboriosam maxime, eum non atque inventore, repellendus velit, culpa deleniti sequi earum deserunt facilis aut dolorum corporis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consequatur eaque quia natus laboriosam maxime, eum non atque inventore, repellendus velit, culpa deleniti sequi earum deserunt facilis aut dolorum corporis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consequatur eaque quia natus laboriosam maxime, eum non atque inventore, repellendus velit, culpa deleniti sequi earum deserunt facilis aut dolorum corporis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam consequatur eaque quia natus laboriosam maxime, eum non atque inventore, repellendus velit, culpa deleniti sequi earum deserunt facilis aut dolorum corporis.
+                            I like to create new things, develop a mind, communicate with people, go in for sports, read books, write code. Computers took over my mind early. When I was 7 years old, I was already doing light PC repairs at my mom's work.
                         </p>
                     </section>
                     <section class="courses" id="courses">
@@ -113,7 +137,7 @@
                                 </a>
                             </li>
                             <li class="courses__item">
-                                <a href="https://freecodecamp.org/" class="courses__link">
+                                <a href="https://youtube.com/" class="courses__link">
                                     <div class="courses__link-pic">
                                         <img src="./assets/img/svg/YouTube_Logo_2017.svg" alt="Youtube logo" class="courses__pic">
                                     </div>
@@ -168,24 +192,31 @@ function brightest(colors) {
                         <h2 class="projects__title section-title">Projects</h2>
                             <ul class="projects__list">
                                 <li class="projects__item">
-                                    <a href="#!" class="projects__link">
+                                    <a href="/" class="projects__link">
                                         <img src="./assets/img/project-cv.jpg" class="projects__img" width="300" height="188" alt="My CV" >
-                                        <h3 class="projects__card-title">My cv <i class="projects__stack projects__stack--html"></i><i class="projects__stack projects__stack--css"></i><i class="projects__stack projects__stack--js"></i></h3>
+                                        <h3 class="projects__card-title">My CV</h3>
                                     </a>
                                 </li>
                                 <li class="projects__item">
                                     <a href="#!" class="projects__link">
-                                        <img src="./assets/img/project-cv.jpg" class="projects__img" width="300" height="188" alt="My CV" >
-                                        <h3 class="projects__card-title">My cv <i class="projects__stack projects__stack--html"></i><i class="projects__stack projects__stack--css"></i><i class="projects__stack projects__stack--js"></i></h3>
-                                    </a>
-                                </li>
-                                <li class="projects__item">
-                                    <a href="#!" class="projects__link">
-                                        <img src="./assets/img/project-cv.jpg" class="projects__img" width="300" height="188" alt="My CV" >
-                                        <h3 class="projects__card-title">My cv <i class="projects__stack projects__stack--html"></i><i class="projects__stack projects__stack--css"></i><i class="projects__stack projects__stack--js"></i></h3>
+                                        <img src="./assets/img/blank.jpg" class="projects__img" width="300" height="188" alt="My CV" >
+                                        <h3 class="projects__card-title">Coming Soon</h3>
                                     </a>
                                 </li>
                             </ul>
+                    </section>
+                    <section class="education" id="education">
+                        <h2 class="education__title section-title">Education</h2>
+                        <ul class="education__list">
+                            <li class="education__item">
+                                <p class="education__enterprise">
+                                    The Saint Petersburg State University of Aerospace Instrumentation (GUAP SPb)
+                                </p>
+                                <p class="education__skill">
+                                    I completed an 2-year course at SPb GUAP
+                                </p>
+                            </li>
+                        </ul>
                     </section>
                 </div>
                 <!-- End right-side section -->
@@ -193,5 +224,28 @@ function brightest(colors) {
         </div>
     </main>
     <!-- End main section -->
+    <!-- Start footer section -->
+    <footer class="footer" id="footer">
+        <div class="wrapper">
+            <div class="footer__wrap">
+                <div class="footer__date">
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                </div>
+                <div class="footer__social social">
+                    <a href="https://github.com/Maracash41" class="social__link">
+                        <img src="/assets/img/svg/icon-github.svg" alt="Github link" class="social__img" width="50" height="50" >
+                        <p class="social__title">Github profile</p>
+                    </a>
+                </div>
+                <a href="https://rs.school/js/" class="footer__link">
+                    <img src="/assets/img/svg/rs_school_js.svg" alt="RS link" class="footer__link" width="100" height="50">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+    <!-- End footer section -->
 </body>
 </html>
