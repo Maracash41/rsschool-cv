@@ -58,8 +58,3 @@ function brightest(colors) {
 }
 ```
 
-### Education:
-
-- The Saint Petersburg State University of Aerospace Instrumentation (GUAP SPb)
-I completed an 2-year course at SPb GUAP
-
