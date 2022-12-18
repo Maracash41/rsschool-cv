@@ -1,33 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
-@Maracash41
-Maracash41 /
-rsschool-cv
-Public
-
-Code
-Issues
-Pull requests 1
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-rsschool-cv/cv.md
-@Maracash41
-Maracash41 feat: update CV markdown
-Latest commit 8e85169 Dec 16, 2022
-History
-1 contributor
-65 lines (51 sloc) 1.49 KB
 # Andrey Akimov
 ## Junior Frontend Developer
 ****
@@ -87,23 +57,4 @@ function brightest(colors) {
     return colors[colorIndex];
 }
 ```
-### Education:
-- The Saint Petersburg State University of Aerospace Instrumentation (GUAP SPb)
-I completed an 2-year course at SPb GUAP
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
 
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-rsschool-cv/cv.md at gh-pages · Maracash41/rsschool-cv 
